@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "846d6e603354c541",
+    "type": "split",
+    "children": [
+      {
+        "id": "21fdb3613d2c72a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24a8406637b7e363",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0387a8f89b273c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b75b45136f04dc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb1368200cb26ae4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0aca90be084e0ec2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git config",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83b408fb3bccde5f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 623.5
+  },
+  "right": {
+    "id": "5df4a3440cf8f5c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a81538b48fa978a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cfc0e1f12fe13d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CTFs/picoCTF/2019/crypto/12 - b00tl3gRSA2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 12 - b00tl3gRSA2"
+            }
+          },
+          {
+            "id": "f86b194dcbb41bdd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CTFs/picoCTF/2019/crypto/12 - b00tl3gRSA2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 12 - b00tl3gRSA2"
+            }
+          },
+          {
+            "id": "612c6f899a12387a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ae4400b4eb5bd67d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CTFs/picoCTF/2019/crypto/12 - b00tl3gRSA2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 12 - b00tl3gRSA2"
+            }
+          },
+          {
+            "id": "4d532dc060295def",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "24a8406637b7e363",
+  "lastOpenFiles": [
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-23-AWS Security - S3cret Santa.md",
+    "GIT/configurar.md",
+    "GIT/github.md",
+    "_Diary/_2026/diario.2026/2026-01-01.md",
+    "_Diary/_2025/diario-2025/2025-10-11.md",
+    "_Diary/_2026/diario.2026",
+    "_Diary/_2026",
+    "_Diary/_2026.md",
+    "Tryhackme/2025/Soupedecode 01.md",
+    "Recon/ffuf.md",
+    "Tryhackme/2025/CyberLens.md",
+    "Tryhackme/2025/Creative.md",
+    "_zscoped/world/5-may-24-provident/dominios.md",
+    "Recon/dns.md",
+    "Tryhackme/2025/Cheese CTF.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-24-Exploitation with cURL - Hoperation Eggsploit.md",
+    "Tryhackme/2025/Grep.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-22-C2 Detection - Command & Carol.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-21-Malware Analysis - Malhare.exe.md",
+    "Tryhackme/2025/yueiua.md",
+    "Tryhackme/2025/brains.md",
+    "Untitled",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-20-Race Conditions - Toy to The World.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-19-ICS-Modbus - Claus for Concern.md",
+    "Tryhackme/2025/Obfuscation Principles.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-18-Obfuscation - The Egg Shell File.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-17-CyberChef - Hoperation Save McSkidy.md",
+    "_Diary/_2025/diario-2025/2025-12-17.md",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-15-Forensics - Registry Furensics.md",
+    "hackthebox/challenges",
+    "hackthebox",
+    "Untitled 2.base",
+    "CTFs/ctfs-2025/12-04-cyberstudents-2025",
+    "CTFs/ctfs-2025/12-02-tryhackme-advent25-side-quest",
+    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025",
+    "CTFs/ctfs-2025/12-03-root-me-xmas",
+    "Pasted image 20250625085836.png",
+    "Pasted image 20250625085846.png",
+    "Pasted image 20250625085841.png",
+    "_Diary/_2025/canasta-2025/Canastas.canvas"
+  ]
+}

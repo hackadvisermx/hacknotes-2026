@@ -1,0 +1,93 @@
+# Mini RSA
+
+What happens if you have a small exponent? There is a twist though, we padded the plaintext so that (M ** e) is just barely larger than N. Let's decrypt this: [ciphertext](https://mercury.picoctf.net/static/e7e63a387acc347648918f419d1ae438/ciphertext)
+
+
+## Solucion
+
+¿Qué pasa si tienes un exponente pequeño? Sin embargo, hay un giro, rellenamos el texto sin formato para que (M ** e) sea apenas más grande que N. Vamos a descifrar esto
+
+
+c = m ^ e ( mod n )
+
+Caso 1 (ataque de raiz cubica)
+
+c = m ^ e
+c = m ^ 3
+m = 3 raiz c
+
+Sin embargo no lo podemos usar
+
+Caso 2 
+
+m ^ e >= n
+c = m ^ e - xn
+m = raiz e (c + xn)
+
+### Instalar 
+
+```
+sudo apt install python3-gmpy2
+
+```
+
+El algortimo agrega n a x hasta que se sea un cubo valido. En este punto , estarems en condicones de obtener el mensaje en texto plano, 
+
+``` python
+from gmpy2 import iroot
+from Crypto.Util.number import long_to_bytes
+
+n=161576568432146305407822605195988788423367831773489290174076332113521363679607546240195027460240509>
+e=3
+co=12200123185888718861325247578988844221745345580555937133090883049102739910735547326599771339806853>
+
+c = co
+while True:
+        m = iroot(c, 3)[0]
+        if pow(m, 3, n) == co :
+                print('Pwned')
+                print(long_to_bytes(m))
+        c += n
+
+```
+
+```bash
+Pwned
+b'                                                                                                        picoCTF{e_sh0u1d_b3_lArg3r_85d643d5}'
+
+```
+
+## 2
+
+```python
+
+from gmpy2 import iroot 
+ 
+N = 1615765684321463054078226051959887884233678317734892901740763321135213636796075462401950274602405095138589898087428337758445013281488966866073355710771864671726991918706558071231>
+e = 3
+C = 1220012318588871886132524757898884422174534558055593713309088304910273991073554732659977133980685370899257850121970812405700793710546674062154237544840177616746805668666317481140>
+
+for k in range(1, 100000):
+    candidate = C + k * N
+    m_root, exact = iroot(candidate, e)
+    if exact:
+        print(f"[+] Found exact cube root with k={k}")
+        print("Decrypted plaintext (as integer):", m_root)
+        print("Decrypted plaintext (ASCII):", bytes.fromhex(hex(m_root)[2:]))
+        break
+
+
+
+```
+## 3
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install git+https://github.com/RsaCtfTool/RsaCtfTool
+
+
+RsaCtfTool --decrypt 2205316413931134031074603746928247799030155221252519872650101242908540609117693035883827878696406295617513907962419726541451312273821810017858485722109359971259158071688912076249144203043097720816270550387459717116098817458584146690177125 -e 3 -n 29331922499794985782735976045591164936683059380558950386560160105740343201513369939006307531165922708949619162698623675349030430859547825708994708321803705309459438099340427770580064400911431856656901982789948285309956111848686906152664473350940486507451771223435835260168971210087470894448460745593956840586530527915802541450092946574694809584880896601317519794442862977471129319781313161842056501715040555964011899589002863730868679527184420789010551475067862907739054966183120621407246398518098981106431219207697870293412176440482900183550467375190239898455201170831410460483829448603477361305838743852756938687673 --attack cube_root
+
+```
+# Referencias
+
