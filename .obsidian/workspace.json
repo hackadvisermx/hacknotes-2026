@@ -11,13 +11,46 @@
             "id": "24a8406637b7e363",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_Diary/_2026/diario.2026/2026-01-05.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-01-05"
+            }
+          },
+          {
+            "id": "3cdfa46bcf70ba80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT/configurar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "configurar"
+            }
+          },
+          {
+            "id": "f27cc0cdda531158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_zOperanting/Mac/01-respaldar-formaterar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-respaldar-formaterar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git config",
+                "query": "Clocky",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623.5
+    "width": 337.5
   },
   "right": {
     "id": "5df4a3440cf8f5c7",
@@ -172,44 +205,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24a8406637b7e363",
+  "active": "3cdfa46bcf70ba80",
   "lastOpenFiles": [
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-23-AWS Security - S3cret Santa.md",
-    "GIT/configurar.md",
+    "GIT/git_cli.md",
     "GIT/github.md",
-    "_Diary/_2026/diario.2026/2026-01-01.md",
-    "_Diary/_2025/diario-2025/2025-10-11.md",
+    "_Diary/_2026/diario.2026/2026-01-05.md",
+    "_Diary/_2026/diario.2026/2026-01-06.md",
+    "Tryhackme/2026/Introduction to EDR.md",
+    "Tryhackme/2026/Living Off the Land Attacks.md",
+    "_zOperanting/Mac/01-respaldar-formaterar.md",
+    "_zOperanting/Mac/02-instalar_afterup.md",
+    "Tryhackme/2026/HealthGPT.md",
+    "_Diary/_2026/diario.2026/2026-01-04.md",
+    "Tryhackme/2026/Clocky.md",
+    "Tryhackme/2026/red.md",
+    "Tryhackme/2025/startup.md",
+    "Tryhackme/2026/Intranet.md",
+    "_zscoped/01-uaz-internal/zrecon_/2025-07-23.md",
+    "Tryhackme/2026",
+    "_zscoped/01-uaz-internal/snmp/snmp-walk.md",
+    "_zscoped/01-uaz-internal/snmp/01-ene-25-red1.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual4.md",
+    "_zscoped/01-uaz-internal/pwned/cisco.md",
+    "_zscoped/01-uaz-internal/pwned/zmisc/VEEAM-BACKUP2.md",
+    "_zscoped/01-uaz-internal/pwned/zmisc/SRVUAZ-BACKUP1-10.1.205.21.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual4/callmanager-cn.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual4/srvuaz-dhcp2/srvuaz-dhcp2-scope-30-jul-25.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual4/srvuaz-dhcp2/srvuaz-dhcp2.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual3/callmanager-cz.md",
+    "_zscoped/01-uaz-internal/pwned/srv-virtual2/vigilante-uaz.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
     "_Diary/_2026/diario.2026",
     "_Diary/_2026",
-    "_Diary/_2026.md",
-    "Tryhackme/2025/Soupedecode 01.md",
-    "Recon/ffuf.md",
-    "Tryhackme/2025/CyberLens.md",
-    "Tryhackme/2025/Creative.md",
-    "_zscoped/world/5-may-24-provident/dominios.md",
-    "Recon/dns.md",
-    "Tryhackme/2025/Cheese CTF.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-24-Exploitation with cURL - Hoperation Eggsploit.md",
-    "Tryhackme/2025/Grep.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-22-C2 Detection - Command & Carol.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-21-Malware Analysis - Malhare.exe.md",
-    "Tryhackme/2025/yueiua.md",
-    "Tryhackme/2025/brains.md",
     "Untitled",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-20-Race Conditions - Toy to The World.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-19-ICS-Modbus - Claus for Concern.md",
-    "Tryhackme/2025/Obfuscation Principles.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-18-Obfuscation - The Egg Shell File.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-17-CyberChef - Hoperation Save McSkidy.md",
-    "_Diary/_2025/diario-2025/2025-12-17.md",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025/day-15-Forensics - Registry Furensics.md",
     "hackthebox/challenges",
     "hackthebox",
-    "Untitled 2.base",
     "CTFs/ctfs-2025/12-04-cyberstudents-2025",
-    "CTFs/ctfs-2025/12-02-tryhackme-advent25-side-quest",
-    "CTFs/ctfs-2025/12-02-tryhackme-adventodCyber-2025",
-    "CTFs/ctfs-2025/12-03-root-me-xmas",
     "Pasted image 20250625085836.png",
     "Pasted image 20250625085846.png",
     "Pasted image 20250625085841.png",

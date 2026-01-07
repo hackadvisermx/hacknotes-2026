@@ -163,6 +163,29 @@ token                   [Status: 200, Size: 22, Words: 2, Lines: 1, Duration: 18
 
 
 ```
+cat /etc/hosts
+127.0.0.1	localhost
+127.0.0.1       vnc.tryhackme.tech
+127.0.1.1	tryhackme.lan	tryhackme
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.81.156.16 clocky.thm
+
+```
+
+
+
+
+
+## Answer the questions below
+
+### What is flag 1?  
+
+
+```
 curl 10.10.200.129:8000/robots.txt
 User-agent: *
 Disallow: /*.sql$
@@ -171,6 +194,8 @@ Disallow: /*.bak$
 
 Flag 1: THM{14b45bb9eefdb584b79063eca6a31b7a}
 ```
+
+### What is flag 2?  
 
 ```
 ffuf -u http://10.10.200.129:8000/FUZZ -w /usr/share/wordlists/dirb/common.txt -ic -t 100 -e .zip
@@ -202,4 +227,44 @@ robots.txt              [Status: 200, Size: 115, Words: 7, Lines: 7, Duration: 2
 :: Progress: [9228/9228] :: Job [1/1] :: 461 req/sec :: Duration: [0:00:28] :: Errors: 0 ::
 
 ```
+
+```
+root@ip-10-81-75-52:~# wget http://clocky.thm:8000/index.zip
+--2026-01-04 03:05:39--  http://clocky.thm:8000/index.zip
+Resolving clocky.thm (clocky.thm)... 10.81.156.16
+Connecting to clocky.thm (clocky.thm)|10.81.156.16|:8000... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1922 (1.9K) [application/zip]
+Saving to: \u2018index.zip\u2019
+
+index.zip              100%[============================>]   1.88K  --.-KB/s    in 0s      
+
+2026-01-04 03:05:39 (76.2 MB/s) - \u2018index.zip\u2019 saved [1922/1922]
+
+root@ip-10-81-75-52:~# unzip index.zip 
+Archive:  index.zip
+  inflating: app.py                  
+ extracting: flag2.txt               
+root@ip-10-81-75-52:~# cat flag2.txt 
+THM{1d3d62de34a3692518d03ec474159eaf}
+
+```
+
+ 
+
+### What is flag 3?  
+
+ ```
+ 
+ ```
+
+### What is flag 4?  
+
+ 
+
+### What is flag 5?  
+
+ 
+
+What is flag 6?
 

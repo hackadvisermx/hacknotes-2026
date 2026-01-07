@@ -95,6 +95,18 @@
       "ctime": 1765414415900,
       "path": "hackthebox",
       "title": "hackthebox"
+    },
+    {
+      "type": "folder",
+      "ctime": 1767310928160,
+      "path": "_zscoped/01-uaz-internal",
+      "title": "uaz-internal"
+    },
+    {
+      "type": "folder",
+      "ctime": 1767486705840,
+      "path": "Tryhackme/2026",
+      "title": "tryhackme-2026"
     }
   ]
 }
