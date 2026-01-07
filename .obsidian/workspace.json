@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/configurar.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "configurar"
+              "title": "README"
             }
           },
           {
@@ -207,6 +207,7 @@
   },
   "active": "3cdfa46bcf70ba80",
   "lastOpenFiles": [
+    "GIT/configurar.md",
     "GIT/git_cli.md",
     "GIT/github.md",
     "_Diary/_2026/diario.2026/2026-01-05.md",
@@ -233,7 +234,6 @@
     "_zscoped/01-uaz-internal/pwned/srv-virtual4/srvuaz-dhcp2/srvuaz-dhcp2-scope-30-jul-25.md",
     "_zscoped/01-uaz-internal/pwned/srv-virtual4/srvuaz-dhcp2/srvuaz-dhcp2.md",
     "_zscoped/01-uaz-internal/pwned/srv-virtual3/callmanager-cz.md",
-    "_zscoped/01-uaz-internal/pwned/srv-virtual2/vigilante-uaz.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
