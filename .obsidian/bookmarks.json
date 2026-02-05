@@ -2,6 +2,24 @@
   "items": [
     {
       "type": "folder",
+      "ctime": 1769708260765,
+      "path": "_Diary/_2026/clases-ene-jun-2026",
+      "title": "clases-ej26"
+    },
+    {
+      "type": "folder",
+      "ctime": 1769530938846,
+      "path": "AI",
+      "title": "AI"
+    },
+    {
+      "type": "folder",
+      "ctime": 1767486705840,
+      "path": "Tryhackme/2026",
+      "title": "tryhackme-2026"
+    },
+    {
+      "type": "folder",
       "ctime": 1743521692899,
       "path": "CTFs",
       "title": "ctfs"
@@ -57,7 +75,7 @@
     {
       "type": "folder",
       "ctime": 1754321540009,
-      "path": "_Diary/_2025/canasta-2025/1-uaz/clases/cad25",
+      "path": "_Diary/2025/canasta-2025/1-uaz/clases/cad25",
       "title": "cad25"
     },
     {
@@ -101,12 +119,6 @@
       "ctime": 1767310928160,
       "path": "_zscoped/01-uaz-internal",
       "title": "uaz-internal"
-    },
-    {
-      "type": "folder",
-      "ctime": 1767486705840,
-      "path": "Tryhackme/2026",
-      "title": "tryhackme-2026"
     }
   ]
 }
