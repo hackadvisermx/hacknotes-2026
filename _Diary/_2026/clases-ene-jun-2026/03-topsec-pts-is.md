@@ -49,3 +49,24 @@ Resolver los rooms:
 - **Windows Fundamentals 1:** https://tryhackme.com/room/windowsfundamentals1xbx
 - **Windows Command Line:** https://tryhackme.com/r/room/windowscommandline
 Anexar a la entrega un enlace a tu perfil público de tryhackme
+
+
+# Actividad 6 - Tryhackme  Fundamentos 2
+
+Para completar la actividad resolver los siguientes rooms:  
+
+- **Offensive Security Intro**: https://tryhackme.com/room/offensivesecurityintro
+- **Defensive Security Intro:** https://tryhackme.com/room/defensivesecurityintro
+- **Careers in Cyber:** https://tryhackme.com/room/careersincyber
+
+Anexar a la entrega un enlace a tu perfil público de tryhackme
+
+# Tarea 3 - Tryhackme Fundamentos 2
+
+Resolver los rooms:  
+
+- **SOC Fundamentals** - https://tryhackme.com/room/socfundamentals
+- **Search Skills-** https://tryhackme.com/room/searchskills
+- **Networking Concepts** - https://tryhackme.com/room/networkingconcepts
+
+Anexar a la entrega un enlace a tu perfil público de tryhackme
